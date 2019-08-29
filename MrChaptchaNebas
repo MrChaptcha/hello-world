@@ -1,0 +1,42 @@
+#1/bin/sh
+
+figlet "Mr Chaptcha"
+sleep 2
+echo "Hallo Selamat Datang Di Script Saya"
+sleep 1
+echo "anti recode recode club"
+sleep 2
+clear
+echo " Loading.........."
+sleep 3
+echo "─────█─▄▀█──█▀▄─█──
+────▐▌──────────▐▌──
+────█▌▀▄──▄▄──▄▀▐█──
+───▐██──▀▀──▀▀──██▌──
+──▄████▄──▐▌──▄████▄─"
+sleep 2
+read -p "Nama Anda Siapa?(wajib isi)=>>>" nama
+sleep 1
+echo "Baik Selamat Datang $nama semoga Bermanfaat Sc Nya Ya?"
+sleep 2
+read -p "Link Video==>>>" link
+youtube-dl $link
+sleep 1
+figlet "Terimakasih :)"
+sleep 3
+echo             "Jangan Lupa Juga Subscribe Mr Chaptcha https://www.youtube.com/channel/UCAyakRAU8CAsDQyAYpyX56g"
+clear
+echo "loading......"
+sleep 2
+figlet "Mr Chaptcha"
+sleep 1
+echo "lalu Kalian Ketik mv 'nama video (copas)' /sdcard"
+sleep 1
+echo "membuka"
+sleep 2
+echo "sedang Memuat.."
+sleep 1
+ls
+echo "copas ya"
+
+
